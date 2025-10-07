@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+.contenedor{
+    width: 1300px;
+    height: 1530px;
+    background-color: red;
+}
+.hija2{
+    padding: 20px;
+}
+.fotos{
+    width: 400px;
+    height: 400px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+}
+footerImg{
+    display: flex;
+    justify-content: space-between;
+}
+.publicidad{
+    position: fixed;
+    top: 80px;
+    left: 1300px;
+    width: 600px;
+    height: 95%;
+    background-color: black;
+}
